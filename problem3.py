@@ -1,6 +1,6 @@
 import math
 
-def prime_seed(max):
+def prime_sieve(max):
 	numbers=[0]*max
 	primes=[]
 	sqrt = round(math.sqrt(max))+1;
@@ -19,7 +19,7 @@ def prime_seed(max):
 number = 600851475143 
 
 max_prime = round(math.sqrt(number))
-primes = prime_seed(max_prime)
+primes = prime_sieve(max_prime)
 
 def prime_factors(primes,number):
 	factors=[]

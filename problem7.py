@@ -1,9 +1,9 @@
 import primes
 
-seed = primes.prime_seed(1000000)
+sieve = primes.primes_sieve(1000000)
 
-print(len(seed))
+print(len(sieve))
 
-print(seed[0])
-print(seed[5])
-print(seed[10000])
+print(sieve[0])
+print(sieve[5])
+print(sieve[10000])

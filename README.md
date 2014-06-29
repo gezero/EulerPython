@@ -29,10 +29,10 @@ Day 7
 This problem probably wants us to finally create the sieve. I already have it, so again easy solution not much to learn here. 
 Day 8
 -----
-I decided to version the progress. I created github repository and put the code inside. In problem 8 I was practicing how to *work with characters of a string* and convert *string to integer*. To be honest I do not like the global methods - `len`, `str`, `int`. I am used to have this methods on my objects from ruby - size/lenght is attribute of an object why is len a global function? I also learned that the `range` function that i used in the for cycles is also a global function.
+I decided to version the progress. I created github repository and put the code inside. In problem eight I was practicing how to *work with characters of a string* and convert *string to integer*. To be honest I do not like the global methods - `len`, `str`, `int`. I am used to have this methods on my objects from ruby - size/lenght is attribute of an object why is len a global function?
 Day 9
 -----
-I had a chance to *sort an array* in Python when solving problem 9. I was again surprised that the `sorted` method flies in the air in global namespace. From the [list of build in functions](https://docs.python.org/3/library/functions.html) I also learned that the `range` function that I used in the `for` cycles is also a global function. It is obvious of course.  
+I had a chance to *sort an array* in Python when solving problem nine. I was again surprised that the `sorted` method flies in the air in global namespace. From the [list of build in functions](https://docs.python.org/3/library/functions.html) I also learned that the `range` function that I used in the `for` cycles is also a global function. It is obvious of course.  
 Day 10
 ------
 Another easy problem if you already have the sieve.
@@ -41,4 +41,6 @@ Day 11
 I have learned how to *initialize array of arrays*. Also I learned that Python does not like number 04.
 Day 12
 ------
-I decided to do share the diary.
+I decided to create the diary because I learned a lot today. The notes from before this one are aproximations of what I remember. 
+
+I found out that just simple counting factors is not enought for problem twelve. So I created another method that is returning *dictionary* structure that contains full factorization of a number. I discovered how to *raise an Error* when debuging the method. I was also playing with the map function but decided to give up for now and return to it later. I refactored the primes library to store the calculated sieve in cache variable. I found out that two leading underscores should make a variable private inside a module. I needed to refactor problem5.py so that it is still runable.

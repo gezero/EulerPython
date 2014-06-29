@@ -1,9 +1,9 @@
 import primes
 
-seed = primes.prime_seed(2000000)
+sieve = primes.primes_sieve(2000000)
 
 sum =0
-for x in seed:
+for x in sieve:
 	sum+=x
 
 print(sum)
