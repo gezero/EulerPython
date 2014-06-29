@@ -15,8 +15,10 @@ def prime_seed(max):
 		pass
 	return primes	
 def prime_factors(primes,number):
-	factors=[]
+	factors=[1]
 	for prime in primes:
 		if number%prime ==0:
 			factors.append(prime)
 	return factors
+def prime_factors_with_count(primes,number):
+	factors=[1]
