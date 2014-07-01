@@ -49,4 +49,4 @@ Day 13
 Problem thirteen is targeting languages where integers can easily overflow. Python is not such a language. I learned that summing an array can be done using the global function `sum`.
 Day 14
 ------
-Today I learned how to use the ternary if else operator in Python. Somehow I find it strange that the same operator does not seem to work without the else part. I would enjoy writing `return x if condition` when handling special cases. I also read about how to write the ternary operator in old Python - `(lambda a, lambda b)[a>b]`. 
+Today I learned how to use the ternary if else operator in Python. Somehow I find it strange that the same operator does not seem to work without the else part. I would enjoy writing `return x if condition` when handling special cases. I also read about how to write the ternary operator in old Python - `(lambda a, lambda b)[a>b]`. Today I also used Python syntax for my benefit for the first time when debuging the solution. Deciding between printing intermediate solutions or printing just a final solution was just moving the printing code with tabs back and forth.  

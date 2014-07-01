@@ -18,5 +18,5 @@ for x in range(1,100000):
 	if a>max:
 		max = a
 		n=x
-		print (max)
-		print (n)
+print (max)
+print (n)
