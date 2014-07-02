@@ -23,8 +23,10 @@ def primes_sieve(max):
 	__max_sieve__=max
 	return primes
 def prime_factors(number):
-	if __max_sieve__*__max_sieve__ < number:
-		primes_sieve(number)
+	if __max_sieve__ <= number:
+		primes_sieve(number+1)
+	if (number in __primes_sieve__):
+		return [1,number]
 	factors=[1]
 	max_prime = math.floor(math.sqrt(number))+1
 	for prime in __primes_sieve__:
@@ -35,8 +37,8 @@ def prime_factors(number):
 	return factors
 def prime_factors_with_count(number):
 	n =number
-	if __max_sieve__*__max_sieve__ < number:
-		primes_sieve(number)
+	if __max_sieve__ <= number:
+		primes_sieve(number+1)
 	factors={}
 	for prime in __primes_sieve__:
 		factors[prime]=0
