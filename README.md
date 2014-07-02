@@ -50,3 +50,6 @@ Problem thirteen is targeting languages where integers can easily overflow. Pyth
 Day 14
 ------
 Today I learned how to use the ternary if else operator in Python. Somehow I find it strange that the same operator does not seem to work without the else part. I would enjoy writing `return x if condition` when handling special cases. I also read about how to write the ternary operator in old Python - `(lambda a, lambda b)[a>b]`. Today I also used Python syntax for my benefit for the first time when debuging the solution. Deciding between printing intermediate solutions or printing just a final solution was just moving the printing code with tabs back and forth.  
+Day 15
+------
+Today I learned how to initialize matrix with zeros on one line - `[[0]*m]*n` will have always the same value in all elements. Instead I had to use `matrix = [[0 for i in range(0,matrix_size)] for i in range(0,matrix_size)]`. 
