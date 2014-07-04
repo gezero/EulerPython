@@ -56,3 +56,6 @@ Today I learned how to initialize matrix with zeros on all lines - `[[0]*matrix_
 Day 16
 ------
 Problem sixteen is my first one liner solution. I studied more the iterable object that you get from `for` cycle.
+Day 17
+------
+Today I tried to use a regular expression from the re package. 
