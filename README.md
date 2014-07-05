@@ -59,3 +59,6 @@ Problem sixteen is my first one liner solution. I studied more the iterable obje
 Day 17
 ------
 Today I tried to use a regular expression from the re package. 
+Day 18
+------
+Today I had much more fun with `lambda` method than the last time. After learning how to read from file, I mapped the input file into list of lists of integers.
