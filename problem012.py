@@ -29,14 +29,11 @@ def count_divisors(n):
         factors *= prime_factors[x]+1
     return factors
 
-
 n = 0
 total = 0
 divisors = 0
 
-
 current_max = 0
-
 
 while divisors < 500:
     n += 1

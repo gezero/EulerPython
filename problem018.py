@@ -38,7 +38,8 @@ with open('problem018.data', 'r') as f:
     # the following command is splitting the input file into the content list.
     # The lambda function is responsible for splitting one line into list of
     # numbers.
-    content = list(map(lambda x: list(map(int, x.rsplit(' '))), f.readlines()))[::-1]
+    content = list(map(lambda x: list(map(int, x.rsplit(' '))),
+                       f.readlines()))[::-1]
 result = copy.deepcopy(content)
 
 for x in range(1, len(result)):
