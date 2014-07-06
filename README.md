@@ -62,3 +62,6 @@ Today I tried to use a regular expression from the re package.
 Day 18
 ------
 Today I had much more fun with `lambda` method than the last time. After learning how to read from file, I mapped the input file into list of lists of integers.
+Day 19
+------
+Today I learned how to work with `datetime.datetime` and `datetime.timedelta`.
