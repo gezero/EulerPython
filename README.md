@@ -65,3 +65,6 @@ Today I had much more fun with `lambda` method than the last time. After learnin
 Day 19
 ------
 Today I learned how to work with `datetime.datetime` and `datetime.timedelta`.
+Day 20
+------
+Problem 20 has basically same solution as problem 16.
