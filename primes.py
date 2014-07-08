@@ -45,8 +45,8 @@ def prime_factors_with_count(number):
     n = number
     if n == 1:
         return {}
-    if __max_sieve__ * __max_sieve__ <= number:
-        primes_sieve(1 + (number + __max_sieve__ + 1) // 2)
+    if __max_sieve__ <= number:
+        primes_sieve(2*number + 1)
     factors = {}
     for prime in __primes_sieve__:
         factors[prime] = 0

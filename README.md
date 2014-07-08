@@ -68,3 +68,6 @@ Today I learned how to work with `datetime.datetime` and `datetime.timedelta`.
 Day 20
 ------
 Problem 20 has basically same solution as problem 16.
+Day 21
+------
+Today I learned that if you want to add element to a list, you need to use append method, if you will try to append list to a list append method will add the whole list as 1 element. You need to use extend method to add all elements of another list to your list. If you want to add something to a set, no matter if 1 element or set of elements, you need to use the update method. Let me see how long it will take until I will remember this. 
