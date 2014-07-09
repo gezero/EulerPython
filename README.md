@@ -6,7 +6,7 @@ Diary
 =====
 Day 1
 -----
-Ok, I choosed Python 3 as its said on the pages that Python 2 is legacy. It is strange that python executable has diffent mode when you run it without arguments and when you run it to run a program. It took me some time to figure this out. At the end I ended with finally buying a Sublime Text licence so that I can try it out Sublime Text well. I set up the Python3 build system, Python needed to be in path for it to work. Now I press ctrl+b and I see output of the Python program. 
+Ok, I choosed Python 3 as its said on the pages that Python 2 is legacy. It is strange that python executable has diffent mode when you run it without arguments and when you run it to run a program. It took me some time to figure this out. I set up the Python3 build system, Python needed to be in path for it to work. Now I press ctrl+b and I see output of the Python program. 
 
 Problem one is easy one. I learned how to create *function*, how to do a simple *for* cycle, *if* statement and *printing*.
 Day 2
