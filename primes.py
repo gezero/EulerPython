@@ -61,3 +61,22 @@ def prime_factors_with_count(number):
     raise ArithmeticError("We should not get here... The number {0} is not properly divisible...".format(n))
 
 
+def all_divisors(n):
+    divisors = {1}
+    factors = prime_factors_with_count(n)
+    for (k, v) in factors.items():
+        for x in range(0, v):
+            new_divisors = set(y*k for y in divisors)
+            new_divisors.update(divisors)
+            divisors = new_divisors
+    return divisors
+
+
+def proper_divisors(n):
+    divisors = all_divisors(n)
+    divisors.remove(n)
+    return divisors
+
+def is_abundant(number):
+    return number < sum(proper_divisors(number))
+    

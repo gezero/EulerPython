@@ -13,30 +13,12 @@
 
 import primes
 
-
-def all_divisors(n):
-    divisors = {1}
-    factors = primes.prime_factors_with_count(n)
-    for (k, v) in factors.items():
-        for x in range(0, v):
-            new_divisors = set(y*k for y in divisors)
-            new_divisors.update(divisors)
-            divisors = new_divisors
-    return divisors
-
-
-def proper_divisors(n):
-    divisors = all_divisors(n)
-    divisors.remove(n)
-    return divisors
-
-
 total = 0
 sums = [0]
 for x in range(1, 10001):
-    sums.append(sum(proper_divisors(x)))
+    sums.append(sum(primes.proper_divisors(x)))
     if sums[x] < x:
-        if sums[sums[x]] == x :
+        if sums[sums[x]] == x:
             print(x, sums[x])
             total += x + sums[x]
 print(total)
