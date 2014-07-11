@@ -74,3 +74,8 @@ Today I learned that if you want to add element to a list, you need to use appen
 Day 22
 ------
 I used the `enumerate` function today, read from file again, sorted a list. I learned how to convert character into its ascii number.
+Day 23
+------
+Today I had the honor to meet the sys package for the first time. I tried writing to stdout and flushing the output.
+Day 24
+------
