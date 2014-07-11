@@ -79,3 +79,4 @@ Day 23
 Today I had the honor to meet the sys package for the first time. I tried writing to stdout and flushing the output.
 Day 24
 ------
+I practiced a little bit with lists and stuff... Nothing to talk about really. Math problems will start to not be enough to progress my Python knowledge.
