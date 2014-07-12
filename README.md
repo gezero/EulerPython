@@ -80,3 +80,6 @@ Today I had the honor to meet the sys package for the first time. I tried writin
 Day 24
 ------
 I practiced a little bit with lists and stuff... Nothing to talk about really. Math problems will start to not be enough to progress my Python knowledge.
+Day 25
+------
+Today I learned how to open browser from Python. For opening problem 25 I created script to show me next problem that I did not work on yet.
