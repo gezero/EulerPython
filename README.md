@@ -83,3 +83,6 @@ I practiced a little bit with lists and stuff... Nothing to talk about really. M
 Day 25
 ------
 Today I learned how to open browser from Python. For opening problem 25 I created script to show me next problem that I did not work on yet.
+Day 26
+------
+This is what you do when you want to find positions of an element in a list: `[i for i, x in enumerate(list) if x == element]`
