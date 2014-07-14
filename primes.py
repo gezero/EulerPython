@@ -1,11 +1,13 @@
 import math
 __primes_sieve__ = []
+__set_primes_sieve__ = {}
 __max_sieve__ = 0
 
 
 def primes_sieve(limit):
     global __primes_sieve__
     global __max_sieve__
+    global __set_primes_sieve__
     if (limit < __max_sieve__):
         return __primes_sieve__
     numbers = [0] * limit
@@ -22,6 +24,7 @@ def primes_sieve(limit):
             primes.append(x)
         pass
     __primes_sieve__ = primes
+    __set_primes_sieve__ = set(__primes_sieve__)
     __max_sieve__ = limit
     return primes
 
@@ -55,7 +58,7 @@ def prime_factors_with_count(number):
             factors[prime] += 1
         if number == 1:
             return factors
-        if prime * prime > number :
+        if prime * prime > number:
             factors[number] = 1
             return factors
     raise ArithmeticError("We should not get here... The number {0} is not properly divisible...".format(n))
@@ -77,6 +80,12 @@ def proper_divisors(n):
     divisors.remove(n)
     return divisors
 
+
 def is_abundant(number):
     return number < sum(proper_divisors(number))
-    
+
+
+def is_prime(number):
+    if __max_sieve__ <= number:
+        primes_sieve(2*number + 1)
+    return number in __set_primes_sieve__

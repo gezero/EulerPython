@@ -86,3 +86,6 @@ Today I learned how to open browser from Python. For opening problem 25 I create
 Day 26
 ------
 This is what you do when you want to find positions of an element in a list: `[i for i, x in enumerate(list) if x == element]`
+Day 27
+------
+Today I had bad time remembering how the global variables work.
