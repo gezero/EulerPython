@@ -89,3 +89,6 @@ This is what you do when you want to find positions of an element in a list: `[i
 Day 27
 ------
 Today I had bad time remembering how the global variables work.
+Day 28
+------
+Today I tried out range with step 2.
