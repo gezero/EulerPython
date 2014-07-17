@@ -95,3 +95,6 @@ Today I tried out range with step 2.
 Day 29
 ------
 So today I started feeling that 1 day will not be enough for 1 problem soon. Today I played with sets a little bit. I also learned about the `functools.reduce()` method. I like this functional approach.
+Day 30
+------
+I had much less python related trouble solving the problem today. I am getting somehow used to the language.
