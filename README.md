@@ -98,3 +98,6 @@ So today I started feeling that 1 day will not be enough for 1 problem soon. Tod
 Day 30
 ------
 I had much less python related trouble solving the problem today. I am getting somehow used to the language.
+Day 31
+------
+Today I deep copied a dictionary.
