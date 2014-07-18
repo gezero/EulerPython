@@ -18,8 +18,8 @@ combinations = {0: 1}
 for coin in coins:
     for (k, v) in copy.deepcopy(combinations).items():
         for x in range(k+coin, total+1, coin):
-            # if x in combinations:
+            if x in combinations:
                 combinations[x] += v
-            # else:
-                # combinations[x] = v
+            else:
+                combinations[x] = v
 print(combinations[total])
