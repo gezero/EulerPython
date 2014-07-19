@@ -101,3 +101,6 @@ I had much less python related trouble solving the problem today. I am getting s
 Day 31
 ------
 Today I deep copied a dictionary.
+Day 32
+------
+Today I used the `itertools` module.
