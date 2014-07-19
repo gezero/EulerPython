@@ -23,7 +23,7 @@ def write_ordering(ordering):
         if (ordering >= factorials[factorials_index]):
             ordering -= factorials[factorials_index]
             numbers_index += 1
-        if (ordering < factorials[factorials_index]):                                     
+        if (ordering < factorials[factorials_index]):
             result.append(numbers[numbers_index])
             numbers.remove(numbers[numbers_index])
             factorials_index += 1

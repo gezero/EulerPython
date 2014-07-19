@@ -6,12 +6,12 @@
 
 def merge(d1, d2, merge_fn=lambda x,y:y):
     """
-    Merges two dictionaries, non-destructively, combining 
+    Merges two dictionaries, non-destructively, combining
     values on duplicate keys as defined by the optional merge
     function.  The default behavior replaces the values in d1
     with corresponding values in d2.  (There is no other generally
-    applicable merge strategy, but often you'll have homogeneous 
-    types in your dicts, so specifying a merge technique can be 
+    applicable merge strategy, but often you'll have homogeneous
+    types in your dicts, so specifying a merge technique can be
     valuable.)
 
     Examples:
