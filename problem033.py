@@ -43,7 +43,5 @@ for n in range(10, 99):
                     tn *= n1[0]
                     td *= n1[1]
 
-
-
 print (simplify(tn,td))
 
