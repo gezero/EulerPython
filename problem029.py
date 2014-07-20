@@ -18,13 +18,6 @@ import primes
 
 import functools
 
-def gcd(a, b):
-    if b == 0:
-        return a
-    else:
-        return gcd(b, a % b)
-
-
 sets = {}
 
 for x in range(1, 7):
@@ -37,7 +30,7 @@ total = 0
 for x in range(2, 101):
     factors_with_counts = primes.prime_factors_with_count(x)
     counts = set(factors_with_counts.values())
-    divisor = functools.reduce(gcd, counts)
+    divisor = functools.reduce(primes.gcd, counts)
     total += len(sets[divisor])
     # total += 99
 

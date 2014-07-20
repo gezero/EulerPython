@@ -104,3 +104,6 @@ Today I deep copied a dictionary.
 Day 32
 ------
 Today I used the `itertools` module.
+Day 33
+------
+Today i played with sets a little bit.

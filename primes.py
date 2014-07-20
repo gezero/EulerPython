@@ -89,3 +89,10 @@ def is_prime(number):
     if __max_sieve__ <= number:
         primes_sieve(2*number + 1)
     return number in __set_primes_sieve__
+
+
+def gcd(a, b):
+    if b == 0:
+        return a
+    else:
+        return gcd(b, a % b)
