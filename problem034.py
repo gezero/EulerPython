@@ -12,7 +12,7 @@ import math
 
 mapping = {}
 
-for x in range(0,10):
+for x in range(0, 10):
     mapping[str(x)] = math.factorial(x)
 
 print(mapping)
