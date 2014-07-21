@@ -106,4 +106,7 @@ Day 32
 Today I used the `itertools` module.
 Day 33
 ------
-Today i played with sets a little bit.
+Today I played with sets a little bit.
+Day 34
+------
+Today I found out that I can write some of the lambda calls without much thinking
