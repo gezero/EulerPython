@@ -112,3 +112,4 @@ Day 34
 Today I found out that I can write some of the lambda calls without much thinking. Also every line should end with a line terminator - new line. This is why python files should end with an empty line. Actually it is not ending with an empty line. File ends with an new line character.
 Day 35
 ------
+Nothing special today I guess...
