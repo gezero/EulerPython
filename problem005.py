@@ -41,7 +41,7 @@ max_divisor=20
 
 all_factors={}
 for x in range(2,20):
-	factors = primes.prime_factors_with_count(x)
+	factors = primes.factors_with_count(x)
 	all_factors = merge(all_factors,factors,lambda x,y:max(x,y))
 print(all_factors)
 
@@ -49,4 +49,3 @@ result =1
 for (k,v) in all_factors.items():
 	result*=k**v
 print(result)
-

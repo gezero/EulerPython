@@ -5,7 +5,7 @@
 
 import primes
 
-sieve = primes.primes_sieve(2000000)
+sieve = primes.sieve(2000000)
 
 total = 0
 for x in sieve:

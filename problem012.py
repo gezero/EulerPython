@@ -23,7 +23,7 @@
 import primes
 
 def count_divisors(n):
-    prime_factors = primes.prime_factors_with_count(n)
+    prime_factors = primes.factors_with_count(n)
     factors = 1
     for x in prime_factors.keys():
         factors *= prime_factors[x]+1
@@ -41,5 +41,4 @@ while divisors < 500:
     divisors = count_divisors(total)
     if divisors > current_max:
         current_max = divisors
-        print(divisors)
-        print(total)
+        print(divisors,total)

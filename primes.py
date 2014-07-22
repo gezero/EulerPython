@@ -4,7 +4,7 @@ __set_primes_sieve__ = {}
 __max_sieve__ = 0
 
 
-def primes_sieve(limit):
+def sieve(limit):
     global __primes_sieve__
     global __max_sieve__
     global __set_primes_sieve__
@@ -29,7 +29,7 @@ def primes_sieve(limit):
     return primes
 
 
-def prime_factors(number):
+def factors(number):
     if __max_sieve__ <= number:
         primes_sieve(number + 1)
     if (number in __primes_sieve__):
@@ -44,12 +44,12 @@ def prime_factors(number):
     return factors
 
 
-def prime_factors_with_count(number):
+def factors_with_count(number):
     n = number
     if n == 1:
         return {2:0}
     if __max_sieve__ <= number:
-        primes_sieve(2*number + 1)
+        sieve(2*number + 1)
     factors = {}
     for prime in __primes_sieve__:
         factors[prime] = 0
@@ -66,7 +66,7 @@ def prime_factors_with_count(number):
 
 def all_divisors(n):
     divisors = {1}
-    factors = prime_factors_with_count(n)
+    factors = factors_with_count(n)
     for (k, v) in factors.items():
         for x in range(0, v):
             new_divisors = set(y*k for y in divisors)
@@ -87,7 +87,7 @@ def is_abundant(number):
 
 def is_prime(number):
     if __max_sieve__ <= number:
-        primes_sieve(2*number + 1)
+        sieve(2*number + 1)
     return number in __set_primes_sieve__
 
 

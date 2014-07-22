@@ -7,7 +7,7 @@
 
 import primes
 
-sieve = primes.primes_sieve(1000000)
+sieve = primes.sieve(1000000)
 
 print(len(sieve))
 
