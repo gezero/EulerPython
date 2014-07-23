@@ -113,3 +113,6 @@ Today I found out that I can write some of the lambda calls without much thinkin
 Day 35
 ------
 Nothing special today I guess...
+Day 36
+------
+Today I found out that `range` can be called with just one parameter... I learned about loop controlling statements in python.
