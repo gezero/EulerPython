@@ -116,3 +116,6 @@ Nothing special today I guess...
 Day 36
 ------
 Today I found out that `range` can be called with just one parameter... I learned about loop controlling statements in python.
+Day 37
+------
+Today I learned something about documenting and the `__doc__` special attribute. I tried to document the primes.py file.
