@@ -119,3 +119,6 @@ Today I found out that `range` can be called with just one parameter... I learne
 Day 37
 ------
 Today I learned something about documenting and the `__doc__` special attribute. I tried to document the primes.py file.
+Day 38
+------
+Today I sorted characters in a string. Not that I would find this usable in a real world application.
