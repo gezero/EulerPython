@@ -122,3 +122,6 @@ Today I learned something about documenting and the `__doc__` special attribute.
 Day 38
 ------
 Today I sorted characters in a string. Not that I would find this usable in a real world application.
+Day 39
+------
+I refreshed myself how to initialize list with zeros.

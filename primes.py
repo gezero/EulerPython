@@ -117,3 +117,7 @@ def gcd(a, b):
         return a
     else:
         return gcd(b, a % b)
+
+
+def coprime(a, b):
+    return gcd(a,b) == 1
