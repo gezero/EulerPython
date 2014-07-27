@@ -125,3 +125,6 @@ Today I sorted characters in a string. Not that I would find this usable in a re
 Day 39
 ------
 I refreshed myself how to initialize list with zeros.
+Day 40
+------
+I was reading about the problems Python has on Windows (for instance [here](http://pythonforengineers.com/python-on-windows-causing-you-pain-try-anaconda/) ). I did not manageed to get into situation where I would have any problems with python so far, but I did not install any modules yet. I will need to look into it more deeply.
