@@ -131,3 +131,6 @@ I was reading about the problems Python has on Windows (for instance [here](http
 Day 41
 ------
 Not much to discuss here...
+Day 42
+------
+Ok I think that I am pretty convinced that i can do some stuff using the basic Python
