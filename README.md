@@ -133,4 +133,4 @@ Day 41
 Not much to discuss here...
 Day 42
 ------
-Ok I think that I am pretty convinced that i can do some stuff using the basic Python
+Ok I think that I am pretty convinced that i can do some stuff using the basic Python so I guess from now on I will post here less often
