@@ -46,14 +46,14 @@ def sieve(limit):
 def factors(number):
     """This method returns prime factors of input number"""
     if __max_sieve__ <= number:
-        primes_sieve(number + 1)
+        sieve(number + 1)
     if (number in __primes_sieve__):
         return [1, number]
     factors = [1]
     max_prime = math.floor(math.sqrt(number)) + 1
     for prime in __primes_sieve__:
-        if prime > max_prime:
-            return factors
+        if prime > number:
+            break
         if number % prime == 0:
             factors.append(prime)
     return factors
