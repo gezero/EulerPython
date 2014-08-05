@@ -16,5 +16,4 @@ def last10DigitsNtoN(n):
 total = 0
 for i in range(1,1001):
     total += last10DigitsNtoN(i)
-print(total)
 print(total % mod)
