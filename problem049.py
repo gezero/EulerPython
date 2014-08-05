@@ -9,3 +9,28 @@
 #
 # What 12-digit number do you form by concatenating the three terms in this
 # sequence?
+
+
+import primes
+import itertools
+
+sieve = primes.sieve(10000)
+
+
+
+def check_group(group):
+    for combination in itertools.combinations(group, 3):
+        if (combination[0] +combination[2] == 2*combination[1]):
+            print(''.join(map(lambda x: str(x),combination)))
+
+groups = {}
+for prime in sieve:
+    if prime > 1000:
+        group = ''.join(sorted(str(prime)))
+        if not group in groups:
+            groups[group] = []
+        groups[group].append(prime)
+
+for key, group in groups.items():
+    if len(group) >= 3:
+        check_group(group)
