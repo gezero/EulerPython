@@ -11,3 +11,23 @@
 #
 # Which prime, below one-million, can be written as the sum of the most
 # consecutive primes?
+
+
+import primes
+
+stop = 1000000
+
+sieve = primes.sieve(stop)
+
+pset = set(sieve)
+
+max = 0
+sums = [0]*len(sieve)
+for counter in range(0, stop):
+    for i, prime in enumerate(sieve[counter:]):
+        sums[i] += prime
+        if sums[i] >= stop:
+            break
+        if counter > max and sums[i] in pset:
+            print(counter + 1, sums[i])
+            counter = max
